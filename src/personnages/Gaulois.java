@@ -4,7 +4,7 @@ public class Gaulois {
 
 	private String nom;
 	private int force, effetPotion = 1;
-	private Druide druide = new Druide("druide",1,10);
+	
 	
 	public Gaulois(String nom, int force) {
 		this.nom = nom;
@@ -39,8 +39,8 @@ public class Gaulois {
 		parler("« Merci Druide, je sens que ma force est " + effetPotion + " fois décuplée");
 	}
 	
-	public static void main(String[] args) {
-		Gaulois asterix = new Gaulois("Asterix",8);
+//	public static void main(String[] args) {
+//		Gaulois asterix = new Gaulois("Asterix",8);
 //		Romain romain = new Romain("test",8);
 //		System.out.println(asterix.getNom());
 //		System.out.println(asterix);
@@ -48,11 +48,11 @@ public class Gaulois {
 //		asterix.parler("Yo");
 //		asterix.frapper(romain);
 //		asterix.boirePotion(6);
-		
-
-		
-		
-	}
+//		
+//
+//		
+//		
+//	}
 
 	
 }
