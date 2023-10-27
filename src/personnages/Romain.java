@@ -107,15 +107,10 @@ public class Romain {
 		int oldForce = force;
 		
 		forceCoup = calculResistanceEquipement(forceCoup);
+		if(forceCoup < 0) {forceCoup = 0;}
 		
 		force -= forceCoup;
-		//if (force > 0) {
-		//	parler("Aïe");
-		//} else {
-		//	equipementEjecte = ejecterEquipement();
-		//	parler("J'abandonne...");
-		// }
-		if (force == 0) {
+		if (force > 0) {
 			parler("Aïe");
 		}else {
 			equipementEjecte = ejecterEquipement();
