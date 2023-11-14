@@ -72,7 +72,7 @@ public class Romain {
 				if ((equipements[i] != null && equipements[i].equals(Equipement.BOUCLIER))) {
 					resistanceEquipement += 8;
 				} else if (equipements[i] != null && equipements[i].equals(Equipement.CASQUE)) {
-					System.out.println("Equipement casque");
+			
 					resistanceEquipement += 5;
 				}
 			}
